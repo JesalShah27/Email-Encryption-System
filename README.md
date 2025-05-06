@@ -4,9 +4,31 @@ A secure mail project for protecting your messages.
 
 ---
 
-## Project Info
+## Project Brief
 
-Secret Mail Guardian is a web application designed to help users send and receive emails securely. It uses modern web technologies and can be run locally or deployed to the cloud.
+**Secret Mail Guardian** is a web application designed to provide users with a secure platform for sending and receiving emails. The project focuses on privacy and data protection, ensuring that your communications remain confidential. Built with modern technologies like React, TypeScript, and Tailwind CSS, it offers a user-friendly interface and robust security features. Whether for personal or professional use, Secret Mail Guardian helps safeguard your sensitive information from unauthorized access.
+
+---
+
+## How It Works
+
+1. **User Interface:**  
+   The app uses React and Tailwind CSS to provide a modern, responsive UI where users can compose, send, and read secure messages.
+
+2. **Message Handling:**  
+   When a user writes a message and sends it, the app processes the message data. If encryption is implemented, the message content is encrypted before being sent or stored.
+
+3. **Secure Communication:**  
+   The app can use encryption algorithms (such as AES or RSA, depending on implementation) to ensure that only the intended recipient can read the message. The encryption keys are managed securely, and decryption happens only on the recipient’s side.
+
+4. **Backend/API (if present):**  
+   The frontend communicates with a backend server or API to store and retrieve messages. The backend may also handle user authentication and message delivery.
+
+5. **Receiving Messages:**  
+   When a user receives a message, the app fetches it from the backend. If the message is encrypted, it is decrypted in the browser before being displayed.
+
+6. **Local Development:**  
+   Developers can run the app locally using Vite’s development server (`npm run dev`), which serves the app at [http://localhost:8080](http://localhost:8080).
 
 ---
 
